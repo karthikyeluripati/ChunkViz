@@ -9,3 +9,4 @@ data/tmp_upload_*
 runs/
 data/parquet/
 .pytest_cache
+*egg-info
