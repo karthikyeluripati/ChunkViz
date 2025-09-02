@@ -1,0 +1,7 @@
+# data/configs/demo_semantic.yaml
+chunker:
+  type: semantic
+  target_tokens: 400
+  overlap_tokens: 80
+  similarity_merge: 0.82
+  embedder: sentence-transformers/all-MiniLM-L6-v2

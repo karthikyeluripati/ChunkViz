@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.eggs/
+build/
+dist/
+runs/*/report.html
+data/tmp_upload_*
+runs/
+data/parquet/
+.pytest_cache

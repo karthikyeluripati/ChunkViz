@@ -1,0 +1,21 @@
+run:
+  name: demo_run
+chunker:
+  type: fixed
+  target_tokens: 400
+  overlap_tokens: 80
+
+run:
+  name: demo_semantic
+chunker:
+  type: semantic
+  target_tokens: 400
+  overlap_tokens: 80
+  similarity_merge: 0.82
+
+run:
+  name: demo_layout
+chunker:
+  type: layout
+  max_lines: 8
+  min_chars: 40

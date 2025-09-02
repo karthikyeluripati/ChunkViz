@@ -1,0 +1,5 @@
+# data/configs/demo_layout.yaml
+chunker:
+  type: layout
+  max_lines: 8
+  min_chars: 40
